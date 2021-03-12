@@ -1,4 +1,4 @@
-FROM siimeon/dockercomposegitlabci:17-dind
+FROM docker:dind
 
 RUN apk add --no-cache openssh-client rsync nodejs nodejs-npm
 
